@@ -524,69 +524,61 @@ padding: 0;
 
 /* ----------- SECCION FOOTER PAGE-INDEX*/
 
-
-footer{
-background: #2F303A;
-padding: 0;
-margin: 0;
-}
-
 .container-footer{
     /* width: 1200px; */
+    background: #2F303A;
     margin: 0;
     padding: 60px 215px;
 }
 
 .logo-footer{
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-letter-spacing: 0.03em;
-color: var(--brand-color);
-text-decoration: none;
-/* margin-left: 10%; */
-line-height: 110%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+    text-decoration: none;
+    line-height: 110%;
+    padding: 0;
+    margin: 0;
 }
 
 address{
-font-style: normal;
-/* margin-left: 10%; */
-color: #FFFFFF;
-line-height: 24px;
-letter-spacing: 0.03em;
-margin: 0;
-padding: 0;
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
 }
 
-.ul-address{
-list-style: none;
-
-    width: 231px;
-
-        color: #ffffff;
-        margin: 0;
-padding: 0;
+.ul-address-footer{
+    list-style: none;
+    /* width: 231px; */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
+.li-addres-footer{
+    margin: 0;
+    padding: 0;
+}
 
 .number-email{
     text-decoration: none;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-color: rgba(255, 255, 255, 0.6);
-line-height: 170%;
-margin: 0;
-padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 170%;
+    margin: 0;
+    padding: 0;
 }
 
-.number-email:focus{
-    color:var(--brand-color);
-}
-
-.number-email:hover{
+.number-email:focus,:hover{
     color:var(--brand-color);
 }
 
