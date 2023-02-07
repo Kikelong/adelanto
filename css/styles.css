@@ -299,7 +299,6 @@ li{
 
 .numero-header:focus{
     color:var(--brand-color);
-    /* line-height: 500%; */
 }
 
 .numero-header:hover{
@@ -332,8 +331,6 @@ li{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    /* height: 120px;
-    top: 280px; */
     line-height: 136%;
     padding: 30px 0px; 
 }
@@ -383,27 +380,24 @@ li{
 
 .titulo-valores-empresariales{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--text-color);
-/* line-height: 0%; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
 }
 
 .caracteristicas-valores-empresariales{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-/* line-height: 24px; */
-letter-spacing: 0.03em;
-/* padding-right: 20%; */
-color: #757575;
-width: 270px;
-line-height: 170%;
-margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    width: 270px;
+    line-height: 170%;
+    margin-top: 10px;
 }
 
 
@@ -417,21 +411,21 @@ margin-top: 10px;
 
 .titulo-work{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--text-color);
-line-height: 110%;
-margin-bottom: 55.05px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    line-height: 110%;
+    margin-bottom: 55.05px;
 }
 
 
 .ul-images-work{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
     margin:0;
     padding: 0;
 }
@@ -451,40 +445,38 @@ justify-content: center;
 
 .container-worker{
     background: #F5F4FA; 
-    /* F5F4FA */
-padding: 94px 0;
+    padding: 94px 0;
     margin: 0;
 }
 
 .titulo-worker{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--text-color);
-line-height: 110%;
-margin-bottom: 50px;
-padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    line-height: 110%;
+    margin-bottom: 50px;
+    padding: 0;
 }
 
 .ul-images-worker{
     display: flex;
-    /* justify-content: space-around; */
     margin: 0;
     padding: 0;
     justify-content: center;
-    }
+}
 
 .li-worker{
     background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-margin: 0;
-padding: 0;
-margin-left: 37px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0;
+    padding: 0;
+    margin-left: 37px;
 }
 
 .ul-images-worker > .li-worker:first-child{
@@ -498,27 +490,26 @@ margin-left: 37px;
 }
 
 .nameworkerh3{
-font-family: 'Roboto';
-font-style: normal;
-letter-spacing: 0.03em;
-color: var(--text-color);
-line-height: 110%;
-margin: 0;
-padding: 0;
-margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    line-height: 110%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .description-worker{
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-letter-spacing: 0.03em;
-color: #757575;
-/* margin-bottom: 10%; */
-line-height: 110%;
-margin: 0;
-padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    line-height: 110%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -555,7 +546,6 @@ address{
 
 .ul-address-footer{
     list-style: none;
-    /* width: 231px; */
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -589,20 +579,34 @@ address{
 /* MAIN PAGE PORTAFOLIO */
 
 /* INICIO DE BOTONES PORTAFOLIO */
+.container-menu-portafolio{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 106px;
+}
 
 .ul-menu-portafolio{
     display: flex;
-    justify-content: center;
-    padding: 0px;
+    padding: 0;
+    margin:0;
 }
 
 .li-menu-portafolio{
-    margin: 50px 5px;
+    padding: 0;
+    margin:0;
+    margin-right: 8px;
 }
 
-.botones-portafolio{
+.ul-menu-portafolio > .li-menu-portafolio:last-child{
+    margin:0;
+}
+
+.menu-botones-portafolio{
     cursor: pointer;
-font-family: "Roboto";
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     color: var(--text-color);
@@ -610,86 +614,111 @@ font-family: "Roboto";
     border: none;
     border-radius: 4px;
     padding: 6px 24px;
+    margin: 0;
 }
 
-.botones-portafolio:hover{
- /* margin: 0.5%; */
- font-family: "Roboto";
- font-weight: 500;
-    font-size: 16px;
- background: var(--brand-color);
-border-radius: 4px;
-padding: 0 1% ;
-color: #ffffff;
-padding: 6px 24px;
+.menu-botones-portafolio:hover{
+    font-family: "Roboto";
+    font-weight: 500;
+        font-size: 16px;
+    background: var(--brand-color);
+    border-radius: 4px;
+    padding: 0 1% ;
+    color: #ffffff;
+    padding: 6px 24px;
 }
 
-.botones-portafolio:focus{
- /* margin: 0.5%; */
- font-family: "Roboto";
- font-weight: 500;
+.menu-botones-portafolio:focus{
+    font-family: "Roboto";
+    font-weight: 500;
     font-size: 16px;
- background: var(--brand-color);
-border-radius: 4px;
-padding: 0 1% ;
-color: #ffffff;
-padding: 6px 24px;
-outline: none;
+    background: var(--brand-color);
+    border-radius: 4px;
+    padding: 0 1% ;
+    color: #ffffff;
+    padding: 6px 24px;
+    outline: none;
 }
 
 /* FINAL DE BOTONES PORTAFOLIO */
 
 /* INICIO DE TARJETAS INFORMATIVAS */
 
-.ul-images-services{
+.container-tarjetas-services{
+    /* padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
+
+    padding-bottom: 82px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ul-tarjetas-services{
+    display: flex;
     flex-wrap: wrap;
-    padding: 0px;
-    /* width: 1260px; */
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
     margin: 0px auto;
     margin-bottom: 75px;
+    padding: 0;
 }
 
-.li-services{
+.li-tarjetas-services{
     background: #FFFFFF;
-    margin: 15px 25px;
     border: 1px solid #EEEEEE;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
+    width: 370px;
+    /* height: 404px; */
 }
 
-.li-services:hover{
+.li-tarjetas-services:hover{
     cursor: pointer;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 
-.li-services:focus{
+.li-tarjetas-services:focus{
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 
-.link-tarjeta-services{
+.link-tarjetas-services{
     text-decoration: none;
+    padding: 0;
+    margin:0;
 }
 
-.link-tarjeta-services:focus{
+/* .link-tarjetas-services:focus{
     outline: none;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+} */
+
+.container-texto-tarjetas-services{
+    padding: 20px 24px;
+    margin: 0;
 }
 
-h3{
+.titulo-tarjetas-services{
     color: #212121;
-    margin-left: 5%;
+    padding: 0;
+    margin:0;
 }
 
-.image-description{
+.description-tarjetas-services{
     color: #757575;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-/* line-height: 30px; */
-letter-spacing: 0.03em;
-    margin-left: 5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    padding: 0;
+    margin:0;
+    margin-top: 10px;
 }
 
 /* FINAL DE TARJETAS INFORMATIVAS */
